@@ -8,6 +8,7 @@ import logging
 
 import odoo
 import odoo.tools as tools
+#123
 
 _logger = logging.getLogger(__name__)
 
