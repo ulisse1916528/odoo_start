@@ -155,8 +155,8 @@
                                         <field name="spouse_complete_name" attrs="{'invisible': [('marital', 'not in', ['married', 'cohabitant'])]}" groups="hr.group_hr_user"/>
                                         <field name="spouse_birthdate" attrs="{'invisible': [('marital', 'not in', ['married', 'cohabitant'])]}" groups="hr.group_hr_user"/>
                                     </group>
-                                    <group string="Dependant">
-                                        <field name="children"/>
+                                    <group string="Dependant" invisible='1'> 
+                                        <field name="children" invisible='1'/>
                                     </group>
                                     <group string="Emergency">
                                         <field name="emergency_contact"/>
