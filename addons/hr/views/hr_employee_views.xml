@@ -94,7 +94,7 @@
                             <group>
                                 <field name="department_id"/>
                                 <field name="parent_id"/>
-                                <field name="coach_id"/>
+                                <field name="coach_id" invisible='1'/>
                             </group>
                         </group>
                         <notebook>
