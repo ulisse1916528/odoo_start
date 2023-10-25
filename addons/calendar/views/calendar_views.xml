@@ -188,7 +188,7 @@
                                     </div>
                                 </div>
                                 <group>
-                                    <field name="privacy"/>
+                                    <field name="privacy" invisible='1'/>
                                     <field name="show_as"/>
                                     <field name="recurrence_id" invisible="1" />
                                 </group>
